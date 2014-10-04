@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1670FA919DFAF59001765EB /* JXPaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FA819DFAF59001765EB /* JXPaperCanvasView.m */; };
+		A1670FAC19DFAF91001765EB /* JXCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FAB19DFAF91001765EB /* JXCanvasView.m */; };
+		A1670FAF19DFB0F8001765EB /* JXClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FAE19DFB0F8001765EB /* JXClothCanvasView.m */; };
+		A1670FB419DFB308001765EB /* JXCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FB319DFB308001765EB /* JXCanvasViewGenerator.m */; };
+		A1670FB719DFB396001765EB /* JXPaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FB619DFB396001765EB /* JXPaperCanvasViewGenerator.m */; };
+		A1670FBA19DFB41E001765EB /* JXClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FB919DFB41E001765EB /* JXClothCanvasViewGenerator.m */; };
+		A1670FBE19DFB891001765EB /* JXBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FBD19DFB891001765EB /* JXBrandingFactory.m */; };
+		A1670FC119DFBC63001765EB /* JXAcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FC019DFBC63001765EB /* JXAcmeBrandingFactory.m */; };
+		A1670FC419DFBD86001765EB /* JXSierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FC319DFBD86001765EB /* JXSierraBrandingFactory.m */; };
+		A1670FCA19DFBF79001765EB /* JXAcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FC919DFBF79001765EB /* JXAcmeView.m */; };
+		A1670FCD19DFBF92001765EB /* JXAcmeMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FCC19DFBF92001765EB /* JXAcmeMainButton.m */; };
+		A1670FD019DFBFA3001765EB /* JXAcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FCF19DFBFA3001765EB /* JXAcmeToolbar.m */; };
+		A1670FD319DFC0B5001765EB /* JXSierraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FD219DFC0B5001765EB /* JXSierraToolbar.m */; };
+		A1670FD619DFC0CC001765EB /* JXSierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FD519DFC0CC001765EB /* JXSierraView.m */; };
+		A1670FD919DFC0EA001765EB /* JXSierraMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FD819DFC0EA001765EB /* JXSierraMainButton.m */; };
+		A1670FDD19DFC281001765EB /* JXCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FDC19DFC281001765EB /* JXCharacter.m */; };
+		A1670FE019DFC44B001765EB /* JXCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FDF19DFC44B001765EB /* JXCharacterBuilder.m */; };
+		A1670FE319DFD166001765EB /* JXStandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FE219DFD166001765EB /* JXStandardCharacterBuilder.m */; };
+		A1670FE619DFD35C001765EB /* JXChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FE519DFD35C001765EB /* JXChasingGame.m */; };
+		A1670FEA19DFD66D001765EB /* JXCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FE919DFD66D001765EB /* JXCommand.m */; };
+		A1670FED19DFD7BD001765EB /* JXSetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FEC19DFD7BD001765EB /* JXSetStrokeColorCommand.m */; };
+		A1670FF019DFDC1E001765EB /* JXCoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FEF19DFDC1E001765EB /* JXCoordinatingController.m */; };
+		A1670FF319DFE765001765EB /* JXCommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FF219DFE765001765EB /* JXCommandSlider.m */; };
+		A1670FF719DFED09001765EB /* JXConsoleEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FF619DFED09001765EB /* JXConsoleEmulator.m */; };
+		A1670FFA19DFEF05001765EB /* JXGameBoyEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FF919DFEF05001765EB /* JXGameBoyEmulator.m */; };
+		A1670FFD19DFEF4E001765EB /* JXGameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FFC19DFEF4E001765EB /* JXGameGearEmulator.m */; };
+		A167100119DFF12F001765EB /* JXConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A167100019DFF12F001765EB /* JXConsoleController.m */; };
+		A167100419DFF263001765EB /* JXTouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A167100319DFF263001765EB /* JXTouchConsoleController.m */; };
 		A1A314F319DEE7E200839C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A314F219DEE7E200839C7F /* Foundation.framework */; };
 		A1A314F519DEE7E200839C7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A314F419DEE7E200839C7F /* CoreGraphics.framework */; };
 		A1A314F719DEE7E200839C7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A314F619DEE7E200839C7F /* UIKit.framework */; };
@@ -39,6 +67,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1670FA719DFAF59001765EB /* JXPaperCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPaperCanvasView.h; sourceTree = "<group>"; };
+		A1670FA819DFAF59001765EB /* JXPaperCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPaperCanvasView.m; sourceTree = "<group>"; };
+		A1670FAA19DFAF91001765EB /* JXCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCanvasView.h; sourceTree = "<group>"; };
+		A1670FAB19DFAF91001765EB /* JXCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCanvasView.m; sourceTree = "<group>"; };
+		A1670FAD19DFB0F8001765EB /* JXClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXClothCanvasView.h; sourceTree = "<group>"; };
+		A1670FAE19DFB0F8001765EB /* JXClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXClothCanvasView.m; sourceTree = "<group>"; };
+		A1670FB219DFB308001765EB /* JXCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCanvasViewGenerator.h; sourceTree = "<group>"; };
+		A1670FB319DFB308001765EB /* JXCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCanvasViewGenerator.m; sourceTree = "<group>"; };
+		A1670FB519DFB396001765EB /* JXPaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		A1670FB619DFB396001765EB /* JXPaperCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		A1670FB819DFB41E001765EB /* JXClothCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		A1670FB919DFB41E001765EB /* JXClothCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		A1670FBC19DFB891001765EB /* JXBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBrandingFactory.h; sourceTree = "<group>"; };
+		A1670FBD19DFB891001765EB /* JXBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBrandingFactory.m; sourceTree = "<group>"; };
+		A1670FBF19DFBC63001765EB /* JXAcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAcmeBrandingFactory.h; sourceTree = "<group>"; };
+		A1670FC019DFBC63001765EB /* JXAcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAcmeBrandingFactory.m; sourceTree = "<group>"; };
+		A1670FC219DFBD86001765EB /* JXSierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSierraBrandingFactory.h; sourceTree = "<group>"; };
+		A1670FC319DFBD86001765EB /* JXSierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSierraBrandingFactory.m; sourceTree = "<group>"; };
+		A1670FC819DFBF79001765EB /* JXAcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAcmeView.h; sourceTree = "<group>"; };
+		A1670FC919DFBF79001765EB /* JXAcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAcmeView.m; sourceTree = "<group>"; };
+		A1670FCB19DFBF92001765EB /* JXAcmeMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAcmeMainButton.h; sourceTree = "<group>"; };
+		A1670FCC19DFBF92001765EB /* JXAcmeMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAcmeMainButton.m; sourceTree = "<group>"; };
+		A1670FCE19DFBFA3001765EB /* JXAcmeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAcmeToolbar.h; sourceTree = "<group>"; };
+		A1670FCF19DFBFA3001765EB /* JXAcmeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAcmeToolbar.m; sourceTree = "<group>"; };
+		A1670FD119DFC0B5001765EB /* JXSierraToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSierraToolbar.h; sourceTree = "<group>"; };
+		A1670FD219DFC0B5001765EB /* JXSierraToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSierraToolbar.m; sourceTree = "<group>"; };
+		A1670FD419DFC0CC001765EB /* JXSierraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSierraView.h; sourceTree = "<group>"; };
+		A1670FD519DFC0CC001765EB /* JXSierraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSierraView.m; sourceTree = "<group>"; };
+		A1670FD719DFC0EA001765EB /* JXSierraMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSierraMainButton.h; sourceTree = "<group>"; };
+		A1670FD819DFC0EA001765EB /* JXSierraMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSierraMainButton.m; sourceTree = "<group>"; };
+		A1670FDB19DFC281001765EB /* JXCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCharacter.h; sourceTree = "<group>"; };
+		A1670FDC19DFC281001765EB /* JXCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCharacter.m; sourceTree = "<group>"; };
+		A1670FDE19DFC44B001765EB /* JXCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCharacterBuilder.h; sourceTree = "<group>"; };
+		A1670FDF19DFC44B001765EB /* JXCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCharacterBuilder.m; sourceTree = "<group>"; };
+		A1670FE119DFD166001765EB /* JXStandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXStandardCharacterBuilder.h; sourceTree = "<group>"; };
+		A1670FE219DFD166001765EB /* JXStandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXStandardCharacterBuilder.m; sourceTree = "<group>"; };
+		A1670FE419DFD35C001765EB /* JXChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXChasingGame.h; sourceTree = "<group>"; };
+		A1670FE519DFD35C001765EB /* JXChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXChasingGame.m; sourceTree = "<group>"; };
+		A1670FE819DFD66D001765EB /* JXCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCommand.h; sourceTree = "<group>"; };
+		A1670FE919DFD66D001765EB /* JXCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCommand.m; sourceTree = "<group>"; };
+		A1670FEB19DFD7BD001765EB /* JXSetStrokeColorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSetStrokeColorCommand.h; sourceTree = "<group>"; };
+		A1670FEC19DFD7BD001765EB /* JXSetStrokeColorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSetStrokeColorCommand.m; sourceTree = "<group>"; };
+		A1670FEE19DFDC1E001765EB /* JXCoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCoordinatingController.h; sourceTree = "<group>"; };
+		A1670FEF19DFDC1E001765EB /* JXCoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCoordinatingController.m; sourceTree = "<group>"; };
+		A1670FF119DFE765001765EB /* JXCommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCommandSlider.h; sourceTree = "<group>"; };
+		A1670FF219DFE765001765EB /* JXCommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCommandSlider.m; sourceTree = "<group>"; };
+		A1670FF519DFED09001765EB /* JXConsoleEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXConsoleEmulator.h; sourceTree = "<group>"; };
+		A1670FF619DFED09001765EB /* JXConsoleEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXConsoleEmulator.m; sourceTree = "<group>"; };
+		A1670FF819DFEF05001765EB /* JXGameBoyEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXGameBoyEmulator.h; sourceTree = "<group>"; };
+		A1670FF919DFEF05001765EB /* JXGameBoyEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXGameBoyEmulator.m; sourceTree = "<group>"; };
+		A1670FFB19DFEF4E001765EB /* JXGameGearEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXGameGearEmulator.h; sourceTree = "<group>"; };
+		A1670FFC19DFEF4E001765EB /* JXGameGearEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXGameGearEmulator.m; sourceTree = "<group>"; };
+		A1670FFE19DFF090001765EB /* JXConsoleCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXConsoleCommands.h; sourceTree = "<group>"; };
+		A1670FFF19DFF12F001765EB /* JXConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXConsoleController.h; sourceTree = "<group>"; };
+		A167100019DFF12F001765EB /* JXConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXConsoleController.m; sourceTree = "<group>"; };
+		A167100219DFF263001765EB /* JXTouchConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTouchConsoleController.h; sourceTree = "<group>"; };
+		A167100319DFF263001765EB /* JXTouchConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTouchConsoleController.m; sourceTree = "<group>"; };
 		A1A314EF19DEE7E200839C7F /* JXScrawl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXScrawl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A314F219DEE7E200839C7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1A314F419DEE7E200839C7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +181,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1670FA619DFAF3E001765EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FBB19DFB874001765EB /* Factory */,
+				A1670FB119DFB2D3001765EB /* Generator */,
+				A1670FAA19DFAF91001765EB /* JXCanvasView.h */,
+				A1670FAB19DFAF91001765EB /* JXCanvasView.m */,
+				A1670FA719DFAF59001765EB /* JXPaperCanvasView.h */,
+				A1670FA819DFAF59001765EB /* JXPaperCanvasView.m */,
+				A1670FAD19DFB0F8001765EB /* JXClothCanvasView.h */,
+				A1670FAE19DFB0F8001765EB /* JXClothCanvasView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1670FB119DFB2D3001765EB /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FB219DFB308001765EB /* JXCanvasViewGenerator.h */,
+				A1670FB319DFB308001765EB /* JXCanvasViewGenerator.m */,
+				A1670FB519DFB396001765EB /* JXPaperCanvasViewGenerator.h */,
+				A1670FB619DFB396001765EB /* JXPaperCanvasViewGenerator.m */,
+				A1670FB819DFB41E001765EB /* JXClothCanvasViewGenerator.h */,
+				A1670FB919DFB41E001765EB /* JXClothCanvasViewGenerator.m */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		A1670FBB19DFB874001765EB /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FC519DFBF50001765EB /* View */,
+				A1670FBC19DFB891001765EB /* JXBrandingFactory.h */,
+				A1670FBD19DFB891001765EB /* JXBrandingFactory.m */,
+				A1670FBF19DFBC63001765EB /* JXAcmeBrandingFactory.h */,
+				A1670FC019DFBC63001765EB /* JXAcmeBrandingFactory.m */,
+				A1670FC219DFBD86001765EB /* JXSierraBrandingFactory.h */,
+				A1670FC319DFBD86001765EB /* JXSierraBrandingFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		A1670FC519DFBF50001765EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FC619DFBF50001765EB /* Acme */,
+				A1670FC719DFBF50001765EB /* Sierra */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1670FC619DFBF50001765EB /* Acme */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FC819DFBF79001765EB /* JXAcmeView.h */,
+				A1670FC919DFBF79001765EB /* JXAcmeView.m */,
+				A1670FCB19DFBF92001765EB /* JXAcmeMainButton.h */,
+				A1670FCC19DFBF92001765EB /* JXAcmeMainButton.m */,
+				A1670FCE19DFBFA3001765EB /* JXAcmeToolbar.h */,
+				A1670FCF19DFBFA3001765EB /* JXAcmeToolbar.m */,
+			);
+			path = Acme;
+			sourceTree = "<group>";
+		};
+		A1670FC719DFBF50001765EB /* Sierra */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FD419DFC0CC001765EB /* JXSierraView.h */,
+				A1670FD519DFC0CC001765EB /* JXSierraView.m */,
+				A1670FD719DFC0EA001765EB /* JXSierraMainButton.h */,
+				A1670FD819DFC0EA001765EB /* JXSierraMainButton.m */,
+				A1670FD119DFC0B5001765EB /* JXSierraToolbar.h */,
+				A1670FD219DFC0B5001765EB /* JXSierraToolbar.m */,
+			);
+			path = Sierra;
+			sourceTree = "<group>";
+		};
+		A1670FDA19DFC263001765EB /* ChasingGame */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FDB19DFC281001765EB /* JXCharacter.h */,
+				A1670FDC19DFC281001765EB /* JXCharacter.m */,
+				A1670FDE19DFC44B001765EB /* JXCharacterBuilder.h */,
+				A1670FDF19DFC44B001765EB /* JXCharacterBuilder.m */,
+				A1670FE119DFD166001765EB /* JXStandardCharacterBuilder.h */,
+				A1670FE219DFD166001765EB /* JXStandardCharacterBuilder.m */,
+				A1670FE419DFD35C001765EB /* JXChasingGame.h */,
+				A1670FE519DFD35C001765EB /* JXChasingGame.m */,
+			);
+			path = ChasingGame;
+			sourceTree = "<group>";
+		};
+		A1670FE719DFD650001765EB /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FE819DFD66D001765EB /* JXCommand.h */,
+				A1670FE919DFD66D001765EB /* JXCommand.m */,
+				A1670FEB19DFD7BD001765EB /* JXSetStrokeColorCommand.h */,
+				A1670FEC19DFD7BD001765EB /* JXSetStrokeColorCommand.m */,
+				A1670FF119DFE765001765EB /* JXCommandSlider.h */,
+				A1670FF219DFE765001765EB /* JXCommandSlider.m */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		A1670FF419DFECE9001765EB /* Emulator */ = {
+			isa = PBXGroup;
+			children = (
+				A1670FFE19DFF090001765EB /* JXConsoleCommands.h */,
+				A1670FF519DFED09001765EB /* JXConsoleEmulator.h */,
+				A1670FF619DFED09001765EB /* JXConsoleEmulator.m */,
+				A1670FF819DFEF05001765EB /* JXGameBoyEmulator.h */,
+				A1670FF919DFEF05001765EB /* JXGameBoyEmulator.m */,
+				A1670FFB19DFEF4E001765EB /* JXGameGearEmulator.h */,
+				A1670FFC19DFEF4E001765EB /* JXGameGearEmulator.m */,
+				A1670FFF19DFF12F001765EB /* JXConsoleController.h */,
+				A167100019DFF12F001765EB /* JXConsoleController.m */,
+				A167100219DFF263001765EB /* JXTouchConsoleController.h */,
+				A167100319DFF263001765EB /* JXTouchConsoleController.m */,
+			);
+			path = Emulator;
+			sourceTree = "<group>";
+		};
 		A1A314E619DEE7E200839C7F = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +378,10 @@
 		A1A3152119DEE82800839C7F /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				A1670FF419DFECE9001765EB /* Emulator */,
+				A1670FE719DFD650001765EB /* Wrapper */,
+				A1670FDA19DFC263001765EB /* ChasingGame */,
+				A1670FA619DFAF3E001765EB /* View */,
 				A1A3152219DEE82800839C7F /* Context */,
 				A1A3152A19DEE82800839C7F /* ViewControllers */,
 			);
@@ -179,11 +391,11 @@
 		A1A3152219DEE82800839C7F /* Context */ = {
 			isa = PBXGroup;
 			children = (
-				A1A3152319DEE82800839C7F /* JXDot.h */,
-				A1A3152419DEE82800839C7F /* JXDot.m */,
 				A1A3152519DEE82800839C7F /* JXMark.h */,
 				A1A3152619DEE82800839C7F /* JXStroke.h */,
 				A1A3152719DEE82800839C7F /* JXStroke.m */,
+				A1A3152319DEE82800839C7F /* JXDot.h */,
+				A1A3152419DEE82800839C7F /* JXDot.m */,
 				A1A3152819DEE82800839C7F /* JXVertex.h */,
 				A1A3152919DEE82800839C7F /* JXVertex.m */,
 			);
@@ -201,6 +413,8 @@
 				A1A3153019DEE82800839C7F /* JXThumbnailViewController.m */,
 				A1A3153119DEE82800839C7F /* JXViewController.h */,
 				A1A3153219DEE82800839C7F /* JXViewController.m */,
+				A1670FEE19DFDC1E001765EB /* JXCoordinatingController.h */,
+				A1670FEF19DFDC1E001765EB /* JXCoordinatingController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -301,15 +515,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1670FD919DFC0EA001765EB /* JXSierraMainButton.m in Sources */,
 				A1A3153819DEE82800839C7F /* JXThumbnailViewController.m in Sources */,
+				A1670FEA19DFD66D001765EB /* JXCommand.m in Sources */,
+				A1670FE319DFD166001765EB /* JXStandardCharacterBuilder.m in Sources */,
+				A1670FDD19DFC281001765EB /* JXCharacter.m in Sources */,
+				A1670FC419DFBD86001765EB /* JXSierraBrandingFactory.m in Sources */,
 				A1A3153519DEE82800839C7F /* JXVertex.m in Sources */,
 				A1A3153919DEE82800839C7F /* JXViewController.m in Sources */,
+				A1670FAC19DFAF91001765EB /* JXCanvasView.m in Sources */,
+				A1670FCA19DFBF79001765EB /* JXAcmeView.m in Sources */,
+				A1670FCD19DFBF92001765EB /* JXAcmeMainButton.m in Sources */,
 				A1A3153619DEE82800839C7F /* JXCanvasViewController.m in Sources */,
+				A1670FE619DFD35C001765EB /* JXChasingGame.m in Sources */,
+				A167100119DFF12F001765EB /* JXConsoleController.m in Sources */,
 				A1A3153419DEE82800839C7F /* JXStroke.m in Sources */,
 				A1A3150319DEE7E200839C7F /* JXAppDelegate.m in Sources */,
+				A1670FC119DFBC63001765EB /* JXAcmeBrandingFactory.m in Sources */,
+				A1670FF319DFE765001765EB /* JXCommandSlider.m in Sources */,
+				A1670FED19DFD7BD001765EB /* JXSetStrokeColorCommand.m in Sources */,
+				A1670FB719DFB396001765EB /* JXPaperCanvasViewGenerator.m in Sources */,
 				A1A3153319DEE82800839C7F /* JXDot.m in Sources */,
+				A1670FD619DFC0CC001765EB /* JXSierraView.m in Sources */,
+				A1670FD319DFC0B5001765EB /* JXSierraToolbar.m in Sources */,
+				A1670FB419DFB308001765EB /* JXCanvasViewGenerator.m in Sources */,
+				A1670FD019DFBFA3001765EB /* JXAcmeToolbar.m in Sources */,
+				A1670FF019DFDC1E001765EB /* JXCoordinatingController.m in Sources */,
+				A167100419DFF263001765EB /* JXTouchConsoleController.m in Sources */,
+				A1670FE019DFC44B001765EB /* JXCharacterBuilder.m in Sources */,
 				A1A314FF19DEE7E200839C7F /* main.m in Sources */,
+				A1670FFA19DFEF05001765EB /* JXGameBoyEmulator.m in Sources */,
+				A1670FBA19DFB41E001765EB /* JXClothCanvasViewGenerator.m in Sources */,
+				A1670FAF19DFB0F8001765EB /* JXClothCanvasView.m in Sources */,
+				A1670FF719DFED09001765EB /* JXConsoleEmulator.m in Sources */,
+				A1670FFD19DFEF4E001765EB /* JXGameGearEmulator.m in Sources */,
+				A1670FBE19DFB891001765EB /* JXBrandingFactory.m in Sources */,
 				A1A3153719DEE82800839C7F /* JXPaletteViewController.m in Sources */,
+				A1670FA919DFAF59001765EB /* JXPaperCanvasView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,36 +14,49 @@
 
 @implementation JXPaletteViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    CGRect frame = CGRectMake(10, 50, 280, 20);
+    for (int i = 0; i < 3; i++) {
+        frame.origin.y += 50;
+        JXCommandSlider *slider = [[JXCommandSlider alloc] initWithFrame:frame];
+        [slider addTarget:self action:@selector(onCommandSliderValueChanged:) forControlEvents:UIControlEventValueChanged];
+        [self.view addSubview:slider];
+    
+        switch (i) {
+            case 0:
+                _redSlider = slider;
+                break;
+            case 1:
+                _greenSlider = slider;
+                break;
+            case 2:
+                _blueSlider = slider;
+                break;
+            default:
+                break;
+        }
+    }
 }
 
-- (void)didReceiveMemoryWarning
+- (void)onCommandSliderValueChanged:(JXCommandSlider *)slider
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [slider.command execute];
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark -
+#pragma mark - JXSetStrokeColorCommandDelegate Method
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)command:(JXSetStrokeColorCommand *)command didRequestColorComponentsForRed:(CGFloat *)red green:(CGFloat *)green blue:(CGFloat *)blue
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
 }
-*/
+
+- (void)command:(JXSetStrokeColorCommand *)command didFinishColorUpdateWithColor:(UIColor *)color
+{
+
+}
 
 @end

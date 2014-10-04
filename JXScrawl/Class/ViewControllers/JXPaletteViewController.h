@@ -7,11 +7,19 @@
 //
 
 #import "JXViewController.h"
+#import "JXCommandSlider.h"
+#import "JXSetStrokeColorCommand.h"
+
 /**
  *  管理一组用户控件元素, 让用户可以调节线色与线宽。
  *
  *  设置完毕, 新的设定会传递给CanvaseViewController。
  */
-@interface JXPaletteViewController : JXViewController
+@interface JXPaletteViewController : JXViewController<JXSetStrokeColorCommandDelegate>
+{
+    JXCommandSlider *_redSlider;
+    JXCommandSlider *_greenSlider;
+    JXCommandSlider *_blueSlider;
 
+}
 @end

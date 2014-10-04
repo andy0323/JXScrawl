@@ -74,6 +74,9 @@
     return nil;
 }
 
+#pragma mark - 
+#pragma mark - NSCopying method
+
 - (id)copyWithZone:(NSZone *)zone
 {
     JXStroke *strokeCopy = [[[self class] allocWithZone:zone] init];
