@@ -35,6 +35,42 @@
 		A1670FFD19DFEF4E001765EB /* JXGameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1670FFC19DFEF4E001765EB /* JXGameGearEmulator.m */; };
 		A167100119DFF12F001765EB /* JXConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A167100019DFF12F001765EB /* JXConsoleController.m */; };
 		A167100419DFF263001765EB /* JXTouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = A167100319DFF263001765EB /* JXTouchConsoleController.m */; };
+		A195717819E4D1B50014C953 /* JXCar.m in Sources */ = {isa = PBXBuildFile; fileRef = A195717719E4D1B50014C953 /* JXCar.m */; };
+		A195717B19E4D2620014C953 /* JXTaximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = A195717A19E4D2620014C953 /* JXTaximeter.m */; };
+		A195717E19E4D2B40014C953 /* JXCarDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = A195717D19E4D2B40014C953 /* JXCarDriver.m */; };
+		A195718019E4D8470014C953 /* JXCoordinatingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A195717F19E4D8470014C953 /* JXCoordinatingController.xib */; };
+		A195718419E4D9B90014C953 /* JXScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = A195718319E4D9B90014C953 /* JXScribble.m */; };
+		A195718819E4E8020014C953 /* JXEnumeratorDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A195718719E4E8020014C953 /* JXEnumeratorDemo.m */; };
+		A195718B19E4EA460014C953 /* JXMarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A195718A19E4EA460014C953 /* JXMarkEnumerator.m */; };
+		A195718E19E4EAAA0014C953 /* JXEnumerator+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = A195718D19E4EAAA0014C953 /* JXEnumerator+Private.m */; };
+		A195719119E4FBA10014C953 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = A195719019E4FBA10014C953 /* NSMutableArray+Stack.m */; };
+		A195719719E5002D0014C953 /* JXMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A195719619E5002D0014C953 /* JXMarkRenderer.m */; };
+		A195719C19E511EA0014C953 /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A195719B19E511EA0014C953 /* UIImage+ImageComponent.m */; };
+		A195719F19E5123B0014C953 /* JXImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A195719E19E5123B0014C953 /* JXImageFilter.m */; };
+		A19571A219E5138D0014C953 /* JXImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571A119E5138D0014C953 /* JXImageTransformFilter.m */; };
+		A19571A519E51ACB0014C953 /* JXShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571A419E51ACB0014C953 /* JXShadowFilter.m */; };
+		A19571A819E51B6A0014C953 /* JXDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571A719E51B6A0014C953 /* JXDecoratorViewController.m */; };
+		A19571AB19E51D8E0014C953 /* JXDecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571AA19E51D8E0014C953 /* JXDecoratorView.m */; };
+		A19571AE19E51E170014C953 /* UIImage+BaseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571AD19E51E170014C953 /* UIImage+BaseFilter.m */; };
+		A19571B119E51FEC0014C953 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571B019E51FEC0014C953 /* UIImage+Transform.m */; };
+		A19571B419E5209E0014C953 /* UIImage+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571B319E5209E0014C953 /* UIImage+Shadow.m */; };
+		A19571B819E5229C0014C953 /* JXAttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571B719E5229C0014C953 /* JXAttackHandler.m */; };
+		A19571BE19E523720014C953 /* JXMetalArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571BD19E523720014C953 /* JXMetalArmor.m */; };
+		A19571C119E523C30014C953 /* JXAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571C019E523C30014C953 /* JXAttack.m */; };
+		A19571C419E524050014C953 /* JXSwordAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571C319E524050014C953 /* JXSwordAttack.m */; };
+		A19571C719E524BE0014C953 /* JXMagicFireAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571C619E524BE0014C953 /* JXMagicFireAttack.m */; };
+		A19571CA19E524CB0014C953 /* JXLightningAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571C919E524CB0014C953 /* JXLightningAttack.m */; };
+		A19571CD19E525030014C953 /* JXAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571CC19E525030014C953 /* JXAvatar.m */; };
+		A19571D019E525150014C953 /* JXCrystalShield.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571CF19E525150014C953 /* JXCrystalShield.m */; };
+		A19571D319E525BC0014C953 /* JXAttackHandlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571D219E525BC0014C953 /* JXAttackHandlerViewController.m */; };
+		A19571F319E52BC60014C953 /* JXAnySandwich.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571F219E52BC60014C953 /* JXAnySandwich.m */; };
+		A19571F619E52CBE0014C953 /* JXReubenSandwich.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571F519E52CBE0014C953 /* JXReubenSandwich.m */; };
+		A19571F919E52E230014C953 /* JXHamburger.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571F819E52E230014C953 /* JXHamburger.m */; };
+		A19571FD19E532F70014C953 /* JXInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571FC19E532F70014C953 /* JXInputValidator.m */; };
+		A195720019E537430014C953 /* JXNumbericInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A19571FF19E537430014C953 /* JXNumbericInputValidator.m */; };
+		A195720319E5378B0014C953 /* JXAlphaInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A195720219E5378B0014C953 /* JXAlphaInputValidator.m */; };
+		A195720619E537FA0014C953 /* JXCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A195720519E537FA0014C953 /* JXCustomTextField.m */; };
+		A195720919E53E590014C953 /* JXStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A195720819E53E590014C953 /* JXStrategyViewController.m */; };
 		A1A314F319DEE7E200839C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A314F219DEE7E200839C7F /* Foundation.framework */; };
 		A1A314F519DEE7E200839C7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A314F419DEE7E200839C7F /* CoreGraphics.framework */; };
 		A1A314F719DEE7E200839C7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A314F619DEE7E200839C7F /* UIKit.framework */; };
@@ -124,6 +160,79 @@
 		A167100019DFF12F001765EB /* JXConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXConsoleController.m; sourceTree = "<group>"; };
 		A167100219DFF263001765EB /* JXTouchConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTouchConsoleController.h; sourceTree = "<group>"; };
 		A167100319DFF263001765EB /* JXTouchConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTouchConsoleController.m; sourceTree = "<group>"; };
+		A195717619E4D1B50014C953 /* JXCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCar.h; sourceTree = "<group>"; };
+		A195717719E4D1B50014C953 /* JXCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCar.m; sourceTree = "<group>"; };
+		A195717919E4D2620014C953 /* JXTaximeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTaximeter.h; sourceTree = "<group>"; };
+		A195717A19E4D2620014C953 /* JXTaximeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTaximeter.m; sourceTree = "<group>"; };
+		A195717C19E4D2B40014C953 /* JXCarDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCarDriver.h; sourceTree = "<group>"; };
+		A195717D19E4D2B40014C953 /* JXCarDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCarDriver.m; sourceTree = "<group>"; };
+		A195717F19E4D8470014C953 /* JXCoordinatingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JXCoordinatingController.xib; sourceTree = "<group>"; };
+		A195718219E4D9B90014C953 /* JXScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXScribble.h; sourceTree = "<group>"; };
+		A195718319E4D9B90014C953 /* JXScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXScribble.m; sourceTree = "<group>"; };
+		A195718619E4E8020014C953 /* JXEnumeratorDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXEnumeratorDemo.h; sourceTree = "<group>"; };
+		A195718719E4E8020014C953 /* JXEnumeratorDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXEnumeratorDemo.m; sourceTree = "<group>"; };
+		A195718919E4EA460014C953 /* JXMarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMarkEnumerator.h; sourceTree = "<group>"; };
+		A195718A19E4EA460014C953 /* JXMarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMarkEnumerator.m; sourceTree = "<group>"; };
+		A195718C19E4EAAA0014C953 /* JXEnumerator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JXEnumerator+Private.h"; sourceTree = "<group>"; };
+		A195718D19E4EAAA0014C953 /* JXEnumerator+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JXEnumerator+Private.m"; sourceTree = "<group>"; };
+		A195718F19E4FBA10014C953 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		A195719019E4FBA10014C953 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		A195719219E4FE5D0014C953 /* JXMarkVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXMarkVisitor.h; sourceTree = "<group>"; };
+		A195719519E5002D0014C953 /* JXMarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMarkRenderer.h; sourceTree = "<group>"; };
+		A195719619E5002D0014C953 /* JXMarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMarkRenderer.m; sourceTree = "<group>"; };
+		A195719919E510D30014C953 /* JXImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXImageComponent.h; sourceTree = "<group>"; };
+		A195719A19E511EA0014C953 /* UIImage+ImageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageComponent.h"; sourceTree = "<group>"; };
+		A195719B19E511EA0014C953 /* UIImage+ImageComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageComponent.m"; sourceTree = "<group>"; };
+		A195719D19E5123B0014C953 /* JXImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXImageFilter.h; sourceTree = "<group>"; };
+		A195719E19E5123B0014C953 /* JXImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXImageFilter.m; sourceTree = "<group>"; };
+		A19571A019E5138D0014C953 /* JXImageTransformFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXImageTransformFilter.h; sourceTree = "<group>"; };
+		A19571A119E5138D0014C953 /* JXImageTransformFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXImageTransformFilter.m; sourceTree = "<group>"; };
+		A19571A319E51ACB0014C953 /* JXShadowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXShadowFilter.h; sourceTree = "<group>"; };
+		A19571A419E51ACB0014C953 /* JXShadowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXShadowFilter.m; sourceTree = "<group>"; };
+		A19571A619E51B6A0014C953 /* JXDecoratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXDecoratorViewController.h; sourceTree = "<group>"; };
+		A19571A719E51B6A0014C953 /* JXDecoratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXDecoratorViewController.m; sourceTree = "<group>"; };
+		A19571A919E51D8E0014C953 /* JXDecoratorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXDecoratorView.h; sourceTree = "<group>"; };
+		A19571AA19E51D8E0014C953 /* JXDecoratorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXDecoratorView.m; sourceTree = "<group>"; };
+		A19571AC19E51E170014C953 /* UIImage+BaseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BaseFilter.h"; sourceTree = "<group>"; };
+		A19571AD19E51E170014C953 /* UIImage+BaseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BaseFilter.m"; sourceTree = "<group>"; };
+		A19571AF19E51FEC0014C953 /* UIImage+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Transform.h"; sourceTree = "<group>"; };
+		A19571B019E51FEC0014C953 /* UIImage+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Transform.m"; sourceTree = "<group>"; };
+		A19571B219E5209E0014C953 /* UIImage+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Shadow.h"; sourceTree = "<group>"; };
+		A19571B319E5209E0014C953 /* UIImage+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Shadow.m"; sourceTree = "<group>"; };
+		A19571B619E5229C0014C953 /* JXAttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAttackHandler.h; sourceTree = "<group>"; };
+		A19571B719E5229C0014C953 /* JXAttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAttackHandler.m; sourceTree = "<group>"; };
+		A19571BC19E523720014C953 /* JXMetalArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMetalArmor.h; sourceTree = "<group>"; };
+		A19571BD19E523720014C953 /* JXMetalArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMetalArmor.m; sourceTree = "<group>"; };
+		A19571BF19E523C30014C953 /* JXAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAttack.h; sourceTree = "<group>"; };
+		A19571C019E523C30014C953 /* JXAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAttack.m; sourceTree = "<group>"; };
+		A19571C219E524050014C953 /* JXSwordAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwordAttack.h; sourceTree = "<group>"; };
+		A19571C319E524050014C953 /* JXSwordAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwordAttack.m; sourceTree = "<group>"; };
+		A19571C519E524BE0014C953 /* JXMagicFireAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMagicFireAttack.h; sourceTree = "<group>"; };
+		A19571C619E524BE0014C953 /* JXMagicFireAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMagicFireAttack.m; sourceTree = "<group>"; };
+		A19571C819E524CB0014C953 /* JXLightningAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLightningAttack.h; sourceTree = "<group>"; };
+		A19571C919E524CB0014C953 /* JXLightningAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLightningAttack.m; sourceTree = "<group>"; };
+		A19571CB19E525030014C953 /* JXAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAvatar.h; sourceTree = "<group>"; };
+		A19571CC19E525030014C953 /* JXAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAvatar.m; sourceTree = "<group>"; };
+		A19571CE19E525150014C953 /* JXCrystalShield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCrystalShield.h; sourceTree = "<group>"; };
+		A19571CF19E525150014C953 /* JXCrystalShield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCrystalShield.m; sourceTree = "<group>"; };
+		A19571D119E525BC0014C953 /* JXAttackHandlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAttackHandlerViewController.h; sourceTree = "<group>"; };
+		A19571D219E525BC0014C953 /* JXAttackHandlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAttackHandlerViewController.m; sourceTree = "<group>"; };
+		A19571F119E52BC60014C953 /* JXAnySandwich.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAnySandwich.h; sourceTree = "<group>"; };
+		A19571F219E52BC60014C953 /* JXAnySandwich.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAnySandwich.m; sourceTree = "<group>"; };
+		A19571F419E52CBE0014C953 /* JXReubenSandwich.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXReubenSandwich.h; sourceTree = "<group>"; };
+		A19571F519E52CBE0014C953 /* JXReubenSandwich.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXReubenSandwich.m; sourceTree = "<group>"; };
+		A19571F719E52E230014C953 /* JXHamburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXHamburger.h; sourceTree = "<group>"; };
+		A19571F819E52E230014C953 /* JXHamburger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXHamburger.m; sourceTree = "<group>"; };
+		A19571FB19E532F70014C953 /* JXInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXInputValidator.h; sourceTree = "<group>"; };
+		A19571FC19E532F70014C953 /* JXInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXInputValidator.m; sourceTree = "<group>"; };
+		A19571FE19E537430014C953 /* JXNumbericInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNumbericInputValidator.h; sourceTree = "<group>"; };
+		A19571FF19E537430014C953 /* JXNumbericInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNumbericInputValidator.m; sourceTree = "<group>"; };
+		A195720119E5378B0014C953 /* JXAlphaInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAlphaInputValidator.h; sourceTree = "<group>"; };
+		A195720219E5378B0014C953 /* JXAlphaInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAlphaInputValidator.m; sourceTree = "<group>"; };
+		A195720419E537FA0014C953 /* JXCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomTextField.h; sourceTree = "<group>"; };
+		A195720519E537FA0014C953 /* JXCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCustomTextField.m; sourceTree = "<group>"; };
+		A195720719E53E590014C953 /* JXStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXStrategyViewController.h; sourceTree = "<group>"; };
+		A195720819E53E590014C953 /* JXStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXStrategyViewController.m; sourceTree = "<group>"; };
 		A1A314EF19DEE7E200839C7F /* JXScrawl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXScrawl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A314F219DEE7E200839C7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1A314F419DEE7E200839C7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -304,6 +413,124 @@
 			path = Emulator;
 			sourceTree = "<group>";
 		};
+		A195717519E4D1A70014C953 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				A195717619E4D1B50014C953 /* JXCar.h */,
+				A195717719E4D1B50014C953 /* JXCar.m */,
+				A195717919E4D2620014C953 /* JXTaximeter.h */,
+				A195717A19E4D2620014C953 /* JXTaximeter.m */,
+				A195717C19E4D2B40014C953 /* JXCarDriver.h */,
+				A195717D19E4D2B40014C953 /* JXCarDriver.m */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		A195718119E4D9AA0014C953 /* Scribble */ = {
+			isa = PBXGroup;
+			children = (
+				A195718219E4D9B90014C953 /* JXScribble.h */,
+				A195718319E4D9B90014C953 /* JXScribble.m */,
+			);
+			path = Scribble;
+			sourceTree = "<group>";
+		};
+		A195718519E4E7970014C953 /* NSEnumerator */ = {
+			isa = PBXGroup;
+			children = (
+				A195718F19E4FBA10014C953 /* NSMutableArray+Stack.h */,
+				A195719019E4FBA10014C953 /* NSMutableArray+Stack.m */,
+				A195718619E4E8020014C953 /* JXEnumeratorDemo.h */,
+				A195718719E4E8020014C953 /* JXEnumeratorDemo.m */,
+				A195718919E4EA460014C953 /* JXMarkEnumerator.h */,
+				A195718A19E4EA460014C953 /* JXMarkEnumerator.m */,
+				A195718C19E4EAAA0014C953 /* JXEnumerator+Private.h */,
+				A195718D19E4EAAA0014C953 /* JXEnumerator+Private.m */,
+			);
+			path = NSEnumerator;
+			sourceTree = "<group>";
+		};
+		A195719819E510AF0014C953 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A195719919E510D30014C953 /* JXImageComponent.h */,
+				A195719A19E511EA0014C953 /* UIImage+ImageComponent.h */,
+				A195719B19E511EA0014C953 /* UIImage+ImageComponent.m */,
+				A195719D19E5123B0014C953 /* JXImageFilter.h */,
+				A195719E19E5123B0014C953 /* JXImageFilter.m */,
+				A19571A019E5138D0014C953 /* JXImageTransformFilter.h */,
+				A19571A119E5138D0014C953 /* JXImageTransformFilter.m */,
+				A19571A319E51ACB0014C953 /* JXShadowFilter.h */,
+				A19571A419E51ACB0014C953 /* JXShadowFilter.m */,
+				A19571A619E51B6A0014C953 /* JXDecoratorViewController.h */,
+				A19571A719E51B6A0014C953 /* JXDecoratorViewController.m */,
+				A19571A919E51D8E0014C953 /* JXDecoratorView.h */,
+				A19571AA19E51D8E0014C953 /* JXDecoratorView.m */,
+				A19571AC19E51E170014C953 /* UIImage+BaseFilter.h */,
+				A19571AD19E51E170014C953 /* UIImage+BaseFilter.m */,
+				A19571AF19E51FEC0014C953 /* UIImage+Transform.h */,
+				A19571B019E51FEC0014C953 /* UIImage+Transform.m */,
+				A19571B219E5209E0014C953 /* UIImage+Shadow.h */,
+				A19571B319E5209E0014C953 /* UIImage+Shadow.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A19571B519E5228C0014C953 /* AttackHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A19571B619E5229C0014C953 /* JXAttackHandler.h */,
+				A19571B719E5229C0014C953 /* JXAttackHandler.m */,
+				A19571BC19E523720014C953 /* JXMetalArmor.h */,
+				A19571BD19E523720014C953 /* JXMetalArmor.m */,
+				A19571CB19E525030014C953 /* JXAvatar.h */,
+				A19571CC19E525030014C953 /* JXAvatar.m */,
+				A19571CE19E525150014C953 /* JXCrystalShield.h */,
+				A19571CF19E525150014C953 /* JXCrystalShield.m */,
+				A19571BF19E523C30014C953 /* JXAttack.h */,
+				A19571C019E523C30014C953 /* JXAttack.m */,
+				A19571C219E524050014C953 /* JXSwordAttack.h */,
+				A19571C319E524050014C953 /* JXSwordAttack.m */,
+				A19571C519E524BE0014C953 /* JXMagicFireAttack.h */,
+				A19571C619E524BE0014C953 /* JXMagicFireAttack.m */,
+				A19571C819E524CB0014C953 /* JXLightningAttack.h */,
+				A19571C919E524CB0014C953 /* JXLightningAttack.m */,
+				A19571D119E525BC0014C953 /* JXAttackHandlerViewController.h */,
+				A19571D219E525BC0014C953 /* JXAttackHandlerViewController.m */,
+			);
+			path = AttackHandler;
+			sourceTree = "<group>";
+		};
+		A19571F019E52BB70014C953 /* Sandwich */ = {
+			isa = PBXGroup;
+			children = (
+				A19571F119E52BC60014C953 /* JXAnySandwich.h */,
+				A19571F219E52BC60014C953 /* JXAnySandwich.m */,
+				A19571F419E52CBE0014C953 /* JXReubenSandwich.h */,
+				A19571F519E52CBE0014C953 /* JXReubenSandwich.m */,
+				A19571F719E52E230014C953 /* JXHamburger.h */,
+				A19571F819E52E230014C953 /* JXHamburger.m */,
+			);
+			path = Sandwich;
+			sourceTree = "<group>";
+		};
+		A19571FA19E532720014C953 /* InputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				A19571FB19E532F70014C953 /* JXInputValidator.h */,
+				A19571FC19E532F70014C953 /* JXInputValidator.m */,
+				A19571FE19E537430014C953 /* JXNumbericInputValidator.h */,
+				A19571FF19E537430014C953 /* JXNumbericInputValidator.m */,
+				A195720119E5378B0014C953 /* JXAlphaInputValidator.h */,
+				A195720219E5378B0014C953 /* JXAlphaInputValidator.m */,
+				A195720419E537FA0014C953 /* JXCustomTextField.h */,
+				A195720519E537FA0014C953 /* JXCustomTextField.m */,
+				A195720719E53E590014C953 /* JXStrategyViewController.h */,
+				A195720819E53E590014C953 /* JXStrategyViewController.m */,
+			);
+			path = InputValidator;
+			sourceTree = "<group>";
+		};
 		A1A314E619DEE7E200839C7F = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +605,13 @@
 		A1A3152119DEE82800839C7F /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				A19571FA19E532720014C953 /* InputValidator */,
+				A19571F019E52BB70014C953 /* Sandwich */,
+				A19571B519E5228C0014C953 /* AttackHandler */,
+				A195719819E510AF0014C953 /* Image */,
+				A195718519E4E7970014C953 /* NSEnumerator */,
+				A195718119E4D9AA0014C953 /* Scribble */,
+				A195717519E4D1A70014C953 /* Car */,
 				A1670FF419DFECE9001765EB /* Emulator */,
 				A1670FE719DFD650001765EB /* Wrapper */,
 				A1670FDA19DFC263001765EB /* ChasingGame */,
@@ -392,6 +626,9 @@
 			isa = PBXGroup;
 			children = (
 				A1A3152519DEE82800839C7F /* JXMark.h */,
+				A195719219E4FE5D0014C953 /* JXMarkVisitor.h */,
+				A195719519E5002D0014C953 /* JXMarkRenderer.h */,
+				A195719619E5002D0014C953 /* JXMarkRenderer.m */,
 				A1A3152619DEE82800839C7F /* JXStroke.h */,
 				A1A3152719DEE82800839C7F /* JXStroke.m */,
 				A1A3152319DEE82800839C7F /* JXDot.h */,
@@ -415,6 +652,7 @@
 				A1A3153219DEE82800839C7F /* JXViewController.m */,
 				A1670FEE19DFDC1E001765EB /* JXCoordinatingController.h */,
 				A1670FEF19DFDC1E001765EB /* JXCoordinatingController.m */,
+				A195717F19E4D8470014C953 /* JXCoordinatingController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -495,6 +733,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A195718019E4D8470014C953 /* JXCoordinatingController.xib in Resources */,
 				A1A314FD19DEE7E200839C7F /* InfoPlist.strings in Resources */,
 				A1A3150519DEE7E200839C7F /* Images.xcassets in Resources */,
 			);
@@ -517,22 +756,41 @@
 			files = (
 				A1670FD919DFC0EA001765EB /* JXSierraMainButton.m in Sources */,
 				A1A3153819DEE82800839C7F /* JXThumbnailViewController.m in Sources */,
+				A195719C19E511EA0014C953 /* UIImage+ImageComponent.m in Sources */,
 				A1670FEA19DFD66D001765EB /* JXCommand.m in Sources */,
+				A195720019E537430014C953 /* JXNumbericInputValidator.m in Sources */,
 				A1670FE319DFD166001765EB /* JXStandardCharacterBuilder.m in Sources */,
+				A19571FD19E532F70014C953 /* JXInputValidator.m in Sources */,
+				A19571D019E525150014C953 /* JXCrystalShield.m in Sources */,
+				A195717E19E4D2B40014C953 /* JXCarDriver.m in Sources */,
+				A19571F919E52E230014C953 /* JXHamburger.m in Sources */,
 				A1670FDD19DFC281001765EB /* JXCharacter.m in Sources */,
+				A19571BE19E523720014C953 /* JXMetalArmor.m in Sources */,
+				A19571AE19E51E170014C953 /* UIImage+BaseFilter.m in Sources */,
+				A195717B19E4D2620014C953 /* JXTaximeter.m in Sources */,
 				A1670FC419DFBD86001765EB /* JXSierraBrandingFactory.m in Sources */,
 				A1A3153519DEE82800839C7F /* JXVertex.m in Sources */,
 				A1A3153919DEE82800839C7F /* JXViewController.m in Sources */,
 				A1670FAC19DFAF91001765EB /* JXCanvasView.m in Sources */,
 				A1670FCA19DFBF79001765EB /* JXAcmeView.m in Sources */,
 				A1670FCD19DFBF92001765EB /* JXAcmeMainButton.m in Sources */,
+				A195720319E5378B0014C953 /* JXAlphaInputValidator.m in Sources */,
 				A1A3153619DEE82800839C7F /* JXCanvasViewController.m in Sources */,
 				A1670FE619DFD35C001765EB /* JXChasingGame.m in Sources */,
+				A195718B19E4EA460014C953 /* JXMarkEnumerator.m in Sources */,
+				A19571A519E51ACB0014C953 /* JXShadowFilter.m in Sources */,
 				A167100119DFF12F001765EB /* JXConsoleController.m in Sources */,
+				A195718819E4E8020014C953 /* JXEnumeratorDemo.m in Sources */,
+				A195718E19E4EAAA0014C953 /* JXEnumerator+Private.m in Sources */,
+				A19571C719E524BE0014C953 /* JXMagicFireAttack.m in Sources */,
+				A19571A819E51B6A0014C953 /* JXDecoratorViewController.m in Sources */,
 				A1A3153419DEE82800839C7F /* JXStroke.m in Sources */,
 				A1A3150319DEE7E200839C7F /* JXAppDelegate.m in Sources */,
 				A1670FC119DFBC63001765EB /* JXAcmeBrandingFactory.m in Sources */,
+				A195720919E53E590014C953 /* JXStrategyViewController.m in Sources */,
+				A19571B119E51FEC0014C953 /* UIImage+Transform.m in Sources */,
 				A1670FF319DFE765001765EB /* JXCommandSlider.m in Sources */,
+				A19571C419E524050014C953 /* JXSwordAttack.m in Sources */,
 				A1670FED19DFD7BD001765EB /* JXSetStrokeColorCommand.m in Sources */,
 				A1670FB719DFB396001765EB /* JXPaperCanvasViewGenerator.m in Sources */,
 				A1A3153319DEE82800839C7F /* JXDot.m in Sources */,
@@ -540,16 +798,32 @@
 				A1670FD319DFC0B5001765EB /* JXSierraToolbar.m in Sources */,
 				A1670FB419DFB308001765EB /* JXCanvasViewGenerator.m in Sources */,
 				A1670FD019DFBFA3001765EB /* JXAcmeToolbar.m in Sources */,
+				A19571F619E52CBE0014C953 /* JXReubenSandwich.m in Sources */,
 				A1670FF019DFDC1E001765EB /* JXCoordinatingController.m in Sources */,
+				A19571A219E5138D0014C953 /* JXImageTransformFilter.m in Sources */,
 				A167100419DFF263001765EB /* JXTouchConsoleController.m in Sources */,
 				A1670FE019DFC44B001765EB /* JXCharacterBuilder.m in Sources */,
+				A195719719E5002D0014C953 /* JXMarkRenderer.m in Sources */,
 				A1A314FF19DEE7E200839C7F /* main.m in Sources */,
+				A195718419E4D9B90014C953 /* JXScribble.m in Sources */,
+				A195719F19E5123B0014C953 /* JXImageFilter.m in Sources */,
+				A19571B419E5209E0014C953 /* UIImage+Shadow.m in Sources */,
+				A19571CA19E524CB0014C953 /* JXLightningAttack.m in Sources */,
+				A19571D319E525BC0014C953 /* JXAttackHandlerViewController.m in Sources */,
 				A1670FFA19DFEF05001765EB /* JXGameBoyEmulator.m in Sources */,
+				A195719119E4FBA10014C953 /* NSMutableArray+Stack.m in Sources */,
+				A195720619E537FA0014C953 /* JXCustomTextField.m in Sources */,
+				A195717819E4D1B50014C953 /* JXCar.m in Sources */,
 				A1670FBA19DFB41E001765EB /* JXClothCanvasViewGenerator.m in Sources */,
 				A1670FAF19DFB0F8001765EB /* JXClothCanvasView.m in Sources */,
 				A1670FF719DFED09001765EB /* JXConsoleEmulator.m in Sources */,
 				A1670FFD19DFEF4E001765EB /* JXGameGearEmulator.m in Sources */,
+				A19571AB19E51D8E0014C953 /* JXDecoratorView.m in Sources */,
+				A19571B819E5229C0014C953 /* JXAttackHandler.m in Sources */,
+				A19571F319E52BC60014C953 /* JXAnySandwich.m in Sources */,
 				A1670FBE19DFB891001765EB /* JXBrandingFactory.m in Sources */,
+				A19571CD19E525030014C953 /* JXAvatar.m in Sources */,
+				A19571C119E523C30014C953 /* JXAttack.m in Sources */,
 				A1A3153719DEE82800839C7F /* JXPaletteViewController.m in Sources */,
 				A1670FA919DFAF59001765EB /* JXPaperCanvasView.m in Sources */,
 			);
@@ -670,10 +944,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shilong sang (9T3353N28G)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JXScrawl/JXScrawl-Prefix.pch";
 				INFOPLIST_FILE = "JXScrawl/JXScrawl-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "704CE6A8-10D7-42D3-93C7-91790A0B384B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -683,10 +959,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shilong sang (9T3353N28G)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JXScrawl/JXScrawl-Prefix.pch";
 				INFOPLIST_FILE = "JXScrawl/JXScrawl-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "704CE6A8-10D7-42D3-93C7-91790A0B384B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

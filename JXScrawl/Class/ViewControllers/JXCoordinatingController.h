@@ -11,6 +11,12 @@
 #import "JXPaletteViewController.h"
 #import "JXThumbnailViewController.h"
 
+typedef enum {
+    kButtonTagDone,
+    kButtonTagOpenPaletteView,
+    kButtonTagOpenThumbnailView
+} ButtonTag;
+
 @interface JXCoordinatingController : UIViewController
 {
     @private

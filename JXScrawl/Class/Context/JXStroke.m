@@ -7,6 +7,9 @@
 //
 
 #import "JXStroke.h"
+#import "JXEnumerator+Private.h"
+#import "JXMarkEnumerator.h"
+#import "JXMarkVisitor.h"
 
 @implementation JXStroke
 @dynamic location;
@@ -21,7 +24,7 @@
 
 - (void)setLocation:(CGPoint)location
 {
-
+    // 不设任何位置
 }
 
 /**
@@ -74,6 +77,11 @@
     return nil;
 }
 
+- (NSInteger)count
+{
+    return [_children count];
+}
+
 #pragma mark - 
 #pragma mark - NSCopying method
 
@@ -103,6 +111,37 @@
     CGContextSetLineCap(context, kCGLineCapRound);
     CGContextSetStrokeColorWithColor(context, [self.color CGColor]);
     CGContextStrokePath(context);
+}
+
+#pragma mark -
+#pragma mark - Enumerator Method
+
+- (NSEnumerator *)enumerator
+{
+    return [[JXMarkEnumerator alloc] initWithMark:self];
+}
+
+- (void)enumerateMarksUsingBlock:(void (^)(id<JXMark>, BOOL *))block
+{
+    BOOL stop = NO;
+    
+    NSEnumerator *enumerator = [self enumerator];
+    
+    for (id<JXMark> mark in enumerator) {
+        block(mark, &stop);
+        if (stop) {
+            break;
+        }
+    }
+}
+
+- (void)accessMarkVisitor:(id<JXMarkVisitor>)visitor
+{
+    for (id<JXMark> dot in _children) {
+        [dot accessMarkVisitor:visitor];
+    }
+    
+    [visitor visitStroke:self];
 }
 
 @end

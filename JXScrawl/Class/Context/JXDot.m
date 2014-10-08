@@ -31,14 +31,15 @@
     CGFloat x = self.location.x;
     CGFloat y = self.location.y;
     CGFloat frameSize = self.size;
-    CGRect frame = CGRectMake(x - frameSize/2.0,
-                              y - frameSize/2.0,
-                              frameSize,
-                              frameSize);
+    CGRect frame = CGRectMake(x, y, frameSize, frameSize);
+    
     CGContextSetFillColorWithColor(context, [self.color CGColor]);
     CGContextFillEllipseInRect(context, frame);
 }
 
-
+- (void)accessMarkVisitor:(id<JXMarkVisitor>)visitor
+{
+    [visitor visitDot:self];
+}
 
 @end

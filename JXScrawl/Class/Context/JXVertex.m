@@ -91,4 +91,9 @@
     CGContextAddLineToPoint(context, x, y);
 }
 
+- (void)accessMarkVisitor:(id<JXMarkVisitor>)visitor
+{
+    [visitor visitVertex:self];
+}
+
 @end

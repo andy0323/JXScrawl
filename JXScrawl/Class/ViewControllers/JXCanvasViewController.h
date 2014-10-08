@@ -7,19 +7,28 @@
 //
 
 #import "JXViewController.h"
+#import "JXScribble.h"
 #import "JXCanvasView.h"
 #import "JXCanvasViewGenerator.h"
 
 /**
- *  包含主画布视图, 用户可以用手指在盖世兔中涂鸦
+ *  包含主画布视图, 用户可以用手指在该视图中涂鸦
  */
 @interface JXCanvasViewController : JXViewController
 {
     @private
+    JXScribble *_scribble;
     JXCanvasView *_canvasView;   // 画布视图
+
+    CGPoint _startPoint;
+    UIColor *_strokeColor;
+    CGFloat _strokeSize;
 }
-@property (nonatomic, strong) UIColor *strokenColor;
+
 @property (nonatomic, strong) JXCanvasView *canvasView;
+@property (nonatomic, strong) JXScribble *scribble;
+@property (nonatomic, strong) UIColor *strokenColor;
+@property (nonatomic, assign) CGFloat strokeSize;
 
 - (void)loadCanvasViewWithGenerator:(JXCanvasViewGenerator *)generator;
 

@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JXMark.h"
+#import "JXMarkRenderer.h"
 
 @interface JXCanvasView : UIView
 {
 
 }
+@property (nonatomic, strong) id<JXMark> mark;
 
 @end

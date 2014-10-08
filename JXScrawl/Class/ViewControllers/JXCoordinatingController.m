@@ -26,6 +26,48 @@
     return instance;
 }
 
+- (void)requestViewChangeByObject:(id)object
+{
+    if ([object isKindOfClass:[UIBarButtonItem class]]) {
+        switch (((UIBarButtonItem *)object).tag) {
+            case kButtonTagOpenPaletteView:
+            {
+                JXPaletteViewController *controller = [[JXPaletteViewController alloc] init];
+                [_canvasViewController presentViewController:controller
+                                                    animated:YES
+                                                  completion:nil];
+                _activeViewController = controller;
+            }
+            break;
+            
+            case kButtonTagOpenThumbnailView:
+            {
+                JXThumbnailViewController *controller = [[JXThumbnailViewController alloc] init];
+                [_canvasViewController presentViewController:controller
+                                                    animated:YES
+                                                  completion:nil];
+                _activeViewController = controller;
+            }
+            break;
+            
+            default:
+            {
+                [_canvasViewController dismissViewControllerAnimated:YES
+                                                          completion:nil];
+                _activeViewController = _canvasViewController;
+            }
+            break;
+        }
+        
+    }else {
+        
+        [_canvasViewController dismissViewControllerAnimated:YES
+                                                  completion:nil];
+        _activeViewController = _canvasViewController;
+    }
+}
+
+
 
 - (void)viewDidLoad
 {

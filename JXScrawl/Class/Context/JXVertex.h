@@ -7,6 +7,8 @@
 //
 
 #import "JXMark.h"
+#import "JXMarkVisitor.h"
+
 /**
  *  顶点
  */
@@ -27,5 +29,7 @@
 - (id<JXMark>)childMarkAtIndex:(NSInteger)index;
 
 - (id)copyWithZone:(NSZone *)zone;
+
+- (void)accessMarkVisitor:(id<JXMarkVisitor>)visitor;
 
 @end

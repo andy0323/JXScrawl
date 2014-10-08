@@ -20,5 +20,4 @@ typedef enum {
     kConsoleCommandAction2
 } JXConsoleCommand;
 
-
 #endif

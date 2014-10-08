@@ -7,6 +7,8 @@
 //
 
 #import "JXVertex.h"
+#import "JXMarkVisitor.h"
+
 /**
  *  点
  */
@@ -21,4 +23,5 @@
 
 - (id)copyWithZone:(NSZone *)zone;
 
+- (void)accessMarkVisitor:(id<JXMarkVisitor>)visitor;
 @end

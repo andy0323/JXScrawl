@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JXMarkVisitor.h"
+
+@protocol JXMarkVisitor;
 
 @protocol JXMark <NSObject>
 @property (nonatomic, strong) UIColor *color;
@@ -22,5 +25,12 @@
 
 
 - (void)drawWithContext:(CGContextRef)context;
+
+- (NSEnumerator *)enumerator;
+
+// 用于实现内部迭代器
+- (void)enumerateMarksUsingBlock:(void (^)(id<JXMark> item, BOOL *stop))block;
+
+- (void)accessMarkVisitor:(id<JXMarkVisitor>)visitor;
 
 @end
