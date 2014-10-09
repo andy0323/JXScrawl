@@ -19,6 +19,21 @@
     return self;
 }
 
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super init]) {
+        _location = [(NSValue *)[aDecoder decodeObjectForKey:@"VertexLocation"] CGPointValue];
+    }
+    
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:[NSValue valueWithCGPoint:_location]
+                  forKey:@"VertexLocation"];
+}
+
 #pragma mark -
 #pragma mark - 默认属性什么都不处理
 

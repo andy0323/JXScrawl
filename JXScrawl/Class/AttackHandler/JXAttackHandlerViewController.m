@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+#if 0
     // 创建新的人物
     JXAttackHandler *avatar = [[JXAvatar alloc] init];
     
@@ -50,6 +50,7 @@
     // 闪电进行攻击
     JXAttack *lightningAttack = [[JXLightningAttack alloc] init];
     [superAvatar handleAttack:lightningAttack];    
+#endif
 }
 
 @end

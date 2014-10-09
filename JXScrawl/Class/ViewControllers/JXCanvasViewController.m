@@ -9,6 +9,8 @@
 #import "JXCanvasViewController.h"
 #import "JXDot.h"
 #import "JXStroke.h"
+#import "JXCommand.h"
+#import "NSMutableArray+Stack.h"
 
 @interface JXCanvasViewController ()
 
@@ -61,7 +63,21 @@
         id<JXMark> newStroke = [[JXScribble alloc] init];
         [newStroke setColor:_strokeColor];
         [newStroke setSize:_strokeSize];
-        [_scribble addMark:newStroke shouldAddToPreviousMark:NO];
+
+        // [_scribble addMark:newStroke shouldAddToPreviousMark:NO];
+
+        // 取得用于绘图的NSInvocation
+        // 并为绘图命令设置新的参数
+        NSInvocation *drawInvocation = [self drawScribbleInvocation];
+        [drawInvocation setArgument:&newStroke atIndex:2];
+        
+        // 取得用于撤销绘图的NSInvocation
+        // 并且为撤销图命令设置新参数
+        NSInvocation *undrawInvocation = [self undrawScribbleInvocation];
+        [undrawInvocation setArgument:&newStroke atIndex:2];
+        
+        // 执行带有撤销命令的绘图命令
+        [self executeInvocation:drawInvocation withUndoInvocation:undrawInvocation];
     }
     
     // 把当前触摸作为定点添加到临时线条
@@ -83,7 +99,20 @@
         [singleDot setColor:_strokeColor];
         [singleDot setSize:_strokeSize];
     
-        [_scribble addMark:singleDot shouldAddToPreviousMark:NO];
+//        [_scribble addMark:singleDot shouldAddToPreviousMark:NO];
+        
+        // 取得用于绘图的NSInvocation
+        // 并为绘图命令设置新的参数
+        NSInvocation *drawInvocation = [self drawScribbleInvocation];
+        [drawInvocation setArgument:&singleDot atIndex:2];
+        
+        // 取得用于撤销绘图的NSInvocation
+        // 并且为撤销图命令设置新参数
+        NSInvocation *undrawInvocation = [self undrawScribbleInvocation];
+        [undrawInvocation setArgument:&singleDot atIndex:2];
+        
+        // 执行带有撤销命令的绘图命令
+        [self executeInvocation:drawInvocation withUndoInvocation:undrawInvocation];
     }
     
     // 再次重置起点
@@ -168,4 +197,37 @@
     [invocation invoke];
 }
 
+#pragma mark -
+#pragma mark - Draw Scribble Command Methods
+
+- (void)executeCommand:(JXCommand *)command prepareForUndo:(BOOL)prepareForUndo
+{
+    if (prepareForUndo) {
+        // 懒加载undoStack
+        if (!_undoStack) {
+            _undoStack = [[NSMutableArray alloc] initWithCapacity:_levelsOfUndo];
+        }
+        
+        // 如果撤销栈满, 就丢掉栈底部元素
+        if (_undoStack.count == _levelsOfUndo) {
+            [_undoStack dropBottom];
+        }
+        
+        // 把命令压入撤销栈
+        [_undoStack push:command];
+    }
+}
+
+- (void)undoCommand
+{
+    JXCommand *command = [_undoStack pop];
+    [command undo];
+    
+    // 把命令压入恢复栈
+    if (!_redoStack) {
+        _redoStack = [[NSMutableArray alloc] initWithCapacity:_levelsOfUndo];
+    }
+    
+    [_redoStack push:command];
+}
 @end

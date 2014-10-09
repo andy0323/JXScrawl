@@ -22,6 +22,22 @@
     return dotCopy;
 }
 
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super init]) {
+        _color = [aDecoder decodeObjectForKey:@"DotColor"];
+        _size = [aDecoder decodeFloatForKey:@"DotSize"];
+    }
+    
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [super encodeWithCoder:aCoder];
+    [aCoder encodeObject:_color forKey:@"DotColor"];
+    [aCoder encodeFloat:_size forKey:@"DotSize"];
+}
 
 /**
  *  在当前上下文中, 能够按照 (位置 & 颜色 & 大小) 绘制一个椭圆点

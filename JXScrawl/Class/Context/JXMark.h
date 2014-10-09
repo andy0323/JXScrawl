@@ -11,7 +11,7 @@
 
 @protocol JXMarkVisitor;
 
-@protocol JXMark <NSObject>
+@protocol JXMark <NSObject, NSCopying, NSCoding>
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
 @property (nonatomic, assign) CGPoint location;

@@ -11,9 +11,12 @@
 @interface JXCommand : NSObject
 {
     @protected
-    // 其他私有成员变量
+    NSDictionary *_userInfo;
 }
 
+@property (nonatomic, strong) NSDictionary *userInfo;
+
 - (void)execute;
+- (void)undo;
 
 @end

@@ -23,6 +23,10 @@
     CGPoint _startPoint;
     UIColor *_strokeColor;
     CGFloat _strokeSize;
+    
+    NSMutableArray *_redoStack;
+    NSMutableArray *_undoStack;
+    NSInteger _levelsOfUndo;
 }
 
 @property (nonatomic, strong) JXCanvasView *canvasView;

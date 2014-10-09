@@ -12,5 +12,6 @@
 
 - (void)push:(id)object;
 - (id)pop;
+- (void)dropBottom;
 
 @end
